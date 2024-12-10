@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    box-sizing: border-box;
+    height: 100vh;
+    font-family: 'karla', sans-serif;
+    background-color: #e0f1e8;
+}

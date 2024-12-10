@@ -68,7 +68,7 @@ export default function Form(){
     return (
         <>
         <Modal open={modalIsOpen}/>
-        <div className="flex flex-col w-mobile bg-white my-8 mx-4 rounded-xl md:w-tablet ">
+        <div className="flex flex-col w-mobile bg-white mx-4 my-8 rounded-xl md:w-tablet ">
             <h1 className="text-3xl text-grey-900 m-6 mb-0 font-bold md:m-10 md:mb-0">Contact Us</h1>
             <form action={contactAction}>
 
